@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="793756ED-84AC-BD07-50D3-4306402B0F45" name="google_user">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:14 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="google_id" id="0FDD3C23-7FCF-C746-E7B6-BAC41B654D0B">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:20 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="displayed_name" id="1CB799CB-DF29-A32F-0439-0E3E016A1DF8">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:29 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="family_name" id="92DAECF1-69A6-DA4B-AAF2-7871C1BA2BB5">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:37 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="given_name" id="E9485EBB-5609-845D-06C6-61A41E27DD4D">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:43 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avatar_url" id="EFC565F2-63E6-E6C8-4DE3-796E8C2B9938">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:51 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="144C4EBF-54F1-3F99-CDD2-B24C4DED85F8">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:57 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="67D8FF2F-D3DB-685F-6888-247DAE99D089">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:26:10 UTC</createdTime>
+<generatorID>4435E574-1A6B-159F-C8F4-27B0BA09E13F</generatorID>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<referedAttribute>BA8F5270-92E9-002C-4A81-8E37114053E9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="213C8BCE-B999-7393-11EB-E1B68BFD35B0" name="google_user PK">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:25:25 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FDD3C23-7FCF-C746-E7B6-BAC41B654D0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

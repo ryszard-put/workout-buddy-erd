@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="workout-buddy" id="CADEB5EC-65F9-E695-A27C-5D4EF46644AD" version="3.5">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 10:38:19 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CADEB5EC-65F9-E695-A27C-5D4EF46644AD</designId>
+</OSDM_Design>

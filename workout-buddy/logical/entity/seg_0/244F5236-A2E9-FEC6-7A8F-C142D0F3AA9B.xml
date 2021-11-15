@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="244F5236-A2E9-FEC6-7A8F-C142D0F3AA9B" name="github_user">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:11:58 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="github_id" id="FE18A187-6E31-3791-D2E2-F7A1EFFFA968">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:12:10 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="64ECE8FC-D43C-037F-14AE-38CC1716E21A">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:15:23 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avatar_url" id="5D536B96-CC6D-7F19-104F-72ED621CBB4A">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:15:40 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="2206621E-9C04-EAB6-8CC5-4EFE0CEB5561">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:16:08 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="8D711AA6-2A85-20AE-B08F-E9119CF10764">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:16:29 UTC</createdTime>
+<generatorID>24171653-9EA8-DD68-1C26-412E61026F1A</generatorID>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<referedAttribute>BA8F5270-92E9-002C-4A81-8E37114053E9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2FA44C1-98A8-F1CF-3625-CAE0DEF308AC" name="github_user PK">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-10 23:15:18 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE18A187-6E31-3791-D2E2-F7A1EFFFA968</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
