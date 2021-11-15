@@ -7,8 +7,9 @@
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
 <sourcePk>FBE45B1E-0F24-7C75-7938-07FFEA94318C</sourcePk>
-<targetPk>C63CE1C5-2FC4-718A-5869-06329CF1BFAB</targetPk>
 <identifying>false</identifying>
+<nameOnSource>belongs to</nameOnSource>
+<nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

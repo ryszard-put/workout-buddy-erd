@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>uses</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>F912DA15-0E60-4876-90BE-4626D9BE34E2</sourceEntity>

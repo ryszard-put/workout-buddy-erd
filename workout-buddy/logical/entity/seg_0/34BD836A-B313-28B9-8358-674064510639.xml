@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="user_id" id="5FB2997B-EF39-9605-E14B-C383A74498CF">
-<createdBy>Ryszard</createdBy>
-<createdTime>2021-11-10 23:21:24 UTC</createdTime>
-<ownerDesignName>workout-buddy</ownerDesignName>
-<engineerTo>
-<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="height" id="06EB027B-BD9E-2DF0-5BF3-FB42FB5AF16F">
 <createdBy>Ryszard</createdBy>
 <createdTime>2021-11-10 23:07:08 UTC</createdTime>
@@ -55,7 +45,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user_id1" id="79DA9B54-6662-813B-09C2-B974FF04388F">
+<Attribute name="user_id" id="79DA9B54-6662-813B-09C2-B974FF04388F">
 <createdBy>Ryszard</createdBy>
 <createdTime>2021-11-10 23:23:42 UTC</createdTime>
 <generatorID>FF9BBDE0-AA92-4348-0980-4E9EE2A5B85A</generatorID>
@@ -78,7 +68,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5FB2997B-EF39-9605-E14B-C383A74498CF</attributeRef>
+<attributeRef>79DA9B54-6662-813B-09C2-B974FF04388F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

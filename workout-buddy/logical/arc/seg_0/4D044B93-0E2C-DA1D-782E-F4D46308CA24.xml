@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="4D044B93-0E2C-DA1D-782E-F4D46308CA24" name="Arc_3">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 09:09:33 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<entity>F43DE16A-4067-88FF-5420-12B1FD82A206</entity>
+<relations>
+<relationID>24171653-9EA8-DD68-1C26-412E61026F1A</relationID>
+<relationID>6BA0253B-98F0-52DF-CD36-BD1D28ED2E98</relationID>
+<relationID>4435E574-1A6B-159F-C8F4-27B0BA09E13F</relationID>
+</relations>
+</Arc>

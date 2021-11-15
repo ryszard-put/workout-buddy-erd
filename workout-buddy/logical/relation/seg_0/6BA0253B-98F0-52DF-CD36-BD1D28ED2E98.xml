@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="24171653-9EA8-DD68-1C26-412E61026F1A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="6BA0253B-98F0-52DF-CD36-BD1D28ED2E98">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-10 23:16:29 UTC</createdTime>
+<createdTime>2021-11-15 09:08:18 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -16,7 +16,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F43DE16A-4067-88FF-5420-12B1FD82A206</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
-<targetEntity>244F5236-A2E9-FEC6-7A8F-C142D0F3AA9B</targetEntity>
+<targetEntity>2E128551-A25E-5199-21A5-00FBD3524AC9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
