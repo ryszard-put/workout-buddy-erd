@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A330C003-F62E-8274-157F-14DEA347C537" name="workout_blueprint">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:34:54 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="blueprint_id" id="0DC6BD3B-8B04-77D9-E790-4EA9CE39F314">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:35:28 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9B8CE7B0-D135-3DB0-FE96-83D021C3C9CE">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:37:07 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="3CAE7727-DE23-F021-8714-A36389C28A7C">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:37:13 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="F0261902-044E-F124-6F01-900CE98C2951">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:37:21 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4705CBB8-7CA6-865C-BED3-82CD281D51C0" name="workout_blueprint PK">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-11-15 11:35:38 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DC6BD3B-8B04-77D9-E790-4EA9CE39F314</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
