@@ -45,7 +45,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="complete" id="E5395469-F7B9-0F32-2496-27FE10E1584C">
+<Attribute name="completed" id="E5395469-F7B9-0F32-2496-27FE10E1584C">
 <createdBy>Ryszard</createdBy>
 <createdTime>2021-11-10 23:06:38 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>

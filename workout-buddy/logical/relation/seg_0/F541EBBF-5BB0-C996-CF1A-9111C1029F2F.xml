@@ -1,21 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="C81E2C4E-C18B-0DE9-B0D7-1B5EA09F4659">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_30" directorySegmentName="seg_0" id="F541EBBF-5BB0-C996-CF1A-9111C1029F2F">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-10 22:21:47 UTC</createdTime>
+<createdTime>2021-12-01 21:18:41 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
-<sourcePk>FBE45B1E-0F24-7C75-7938-07FFEA94318C</sourcePk>
+<sourcePk>6468E508-65C1-9B4F-9F8D-F66DF1E6F6D5</sourcePk>
 <identifying>false</identifying>
-<nameOnSource> </nameOnSource>
-<nameOnTarget>comments</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>F912DA15-0E60-4876-90BE-4626D9BE34E2</sourceEntity>
+<sourceEntity>F43DE16A-4067-88FF-5420-12B1FD82A206</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>F6C91DAD-10CD-B3FB-533D-6EB8AB604B52</targetEntity>
+<targetEntity>81C1904C-A2FD-61DA-AA22-00DE974BB6A2</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

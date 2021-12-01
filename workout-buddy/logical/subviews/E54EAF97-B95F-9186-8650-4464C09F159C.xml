@@ -14,13 +14,42 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="40532B83-BEE3-6497-C23C-40B55A97051D" otype="Entity" vid="2BCB2515-AE16-A1A0-6C80-56D0EE5411B6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="275" y="235" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7B2BE178-0068-82CE-F4BF-A73893EC4615" otype="Entity" vid="3D99654B-7E35-A1CF-E416-45A4C5DB78D7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="241" y="222" width="170" height="110"/>
+<bounds x="513" y="239" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="915F00CF-E230-5F38-6437-7FE49B741E2F" otype="Note" vid="024A7900-AD77-110F-3108-0CBA347CFD00">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="521" y="180" width="138" height="53"/>
+<comment>exercise_set has relationship with exercise from SubView_Exercises</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A330C003-F62E-8274-157F-14DEA347C537" otype="Entity" vid="3900F9B8-F1B4-25B2-B280-73202CBF501F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="457" y="153" width="170" height="110"/>
+<bounds x="827" y="245" width="170" height="110"/>
 </OView>
 </objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0D13963F-99AD-A640-20AD-AB7297F7E1D5" otype="Relation" vid_source="3D99654B-7E35-A1CF-E416-45A4C5DB78D7" vid_target="2BCB2515-AE16-A1A0-6C80-56D0EE5411B6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="513" y="277"/>
+<point x="445" y="277"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D27E40A0-BE30-3666-EF76-FB7C9373E5AA" otype="Relation" vid_source="3900F9B8-F1B4-25B2-B280-73202CBF501F" vid_target="3D99654B-7E35-A1CF-E416-45A4C5DB78D7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="827" y="282"/>
+<point x="683" y="282"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>

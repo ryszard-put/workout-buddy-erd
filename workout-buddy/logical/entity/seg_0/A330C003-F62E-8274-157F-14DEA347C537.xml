@@ -55,6 +55,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="user_id" id="0D6DD4A0-8E7F-9313-5D0C-5F95ADB5C091">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 19:49:47 UTC</createdTime>
+<generatorID>3B810C13-0346-82B1-960D-2C2738972D43</generatorID>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<referedAttribute>BA8F5270-92E9-002C-4A81-8E37114053E9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4705CBB8-7CA6-865C-BED3-82CD281D51C0" name="workout_blueprint PK">

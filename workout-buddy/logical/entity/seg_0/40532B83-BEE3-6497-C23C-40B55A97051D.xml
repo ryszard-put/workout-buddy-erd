@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B2BE178-0068-82CE-F4BF-A73893EC4615" name="group">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40532B83-BEE3-6497-C23C-40B55A97051D" name="exercise_group_join">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 11:41:30 UTC</createdTime>
+<createdTime>2021-12-01 20:01:50 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="group_id" id="66CD2F97-D682-3A0A-90B8-754AD69D9B21">
+<Attribute name="id" id="024722B8-1C30-0202-BE05-A9B08257F73A">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 17:47:46 UTC</createdTime>
+<createdTime>2021-12-01 20:06:42 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -25,21 +25,21 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="blueprint_id" id="2F5F195A-CA8B-EB7A-A08B-4EF5A90CCC33">
+<Attribute name="group_id" id="8F033457-9CDE-8F8B-6CE8-B519BA8CFC5B">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:58:27 UTC</createdTime>
-<generatorID>D27E40A0-BE30-3666-EF76-FB7C9373E5AA</generatorID>
+<createdTime>2021-12-01 20:06:50 UTC</createdTime>
+<generatorID>0D13963F-99AD-A640-20AD-AB7297F7E1D5</generatorID>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
-<referedAttribute>0DC6BD3B-8B04-77D9-E790-4EA9CE39F314</referedAttribute>
+<referedAttribute>66CD2F97-D682-3A0A-90B8-754AD69D9B21</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="order" id="F7544AEA-6AEA-1008-A4BB-E04237DFE34A">
+<Attribute name="in_group_order" id="134196DA-0673-73A1-0698-A4AA9322B51F">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:59:01 UTC</createdTime>
+<createdTime>2021-12-01 20:06:57 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -47,29 +47,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="6AE670C7-77CC-971D-F537-E0E64AF2F9AB">
+<Attribute name="exercise_id" id="D3FC5DC2-2E00-E5F9-C2B9-585F7DF2D636">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 20:00:48 UTC</createdTime>
+<createdTime>2021-12-01 20:08:07 UTC</createdTime>
+<generatorID>57BE735F-1B94-2210-613B-2F62FAC60B56</generatorID>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28383C27-255B-2D67-1F9F-01F83EA9D23E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C45F8F4C-803E-4CBC-1484-B6E257DD7530" name="exercise_set PK">
+<identifier id="64411840-6EEA-F8DE-30AB-54ABCC9DD50C" name="exercise_group_join PK">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 17:47:54 UTC</createdTime>
+<createdTime>2021-12-01 20:03:03 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>66CD2F97-D682-3A0A-90B8-754AD69D9B21</attributeRef>
+<attributeRef>024722B8-1C30-0202-BE05-A9B08257F73A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

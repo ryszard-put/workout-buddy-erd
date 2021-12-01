@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="71FE10A4-05C7-1E56-779D-70CD32CAB227" name="Logical" visible="true"/>
-   <object objectType="sub_view" objectID="BCCE3FEF-BD22-9985-C6A3-7320748926CA" name="SubView_Exercises" visible="true"/>
-   <object objectType="sub_view" objectID="CE8871D6-348F-72E3-98A0-4DE42D635CF3" name="SubView_Users" visible="true"/>
-   <object objectType="sub_view" objectID="E54EAF97-B95F-9186-8650-4464C09F159C" name="SubView_WorkoutBlueprint" visible="true"/>
+   <object objectType="sub_view" objectID="BCCE3FEF-BD22-9985-C6A3-7320748926CA" name="SubView_Exercises" visible="false"/>
+   <object objectType="sub_view" objectID="CE8871D6-348F-72E3-98A0-4DE42D635CF3" name="SubView_Users" visible="false"/>
+   <object objectType="sub_view" objectID="E54EAF97-B95F-9186-8650-4464C09F159C" name="SubView_WorkoutBlueprint" visible="false"/>
+   <object objectType="sub_view" objectID="02A495BA-A373-567F-A07F-48C458E4F45A" name="SubView_WorkoutLog" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

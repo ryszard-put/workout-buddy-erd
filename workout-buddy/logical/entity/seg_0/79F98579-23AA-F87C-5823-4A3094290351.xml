@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E128551-A25E-5199-21A5-00FBD3524AC9" name="facebook_user">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79F98579-23AA-F87C-5823-4A3094290351" name="body_measurement">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 09:07:59 UTC</createdTime>
+<createdTime>2021-12-01 21:25:09 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="facebook_id" id="F274866F-ABD5-D6B8-51FA-2CA03031290D">
+<Attribute name="measurement_id" id="D6181E6A-E40B-591D-DB25-75A4DC7F435A">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 09:11:01 UTC</createdTime>
+<createdTime>2021-12-01 21:26:07 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -25,10 +25,10 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user_id" id="E5BA43BB-230E-6029-0B24-1C3C07C81311">
+<Attribute name="user_id" id="CAFDCE90-DE6D-9587-2AC1-69FF312B7EF4">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 09:08:18 UTC</createdTime>
-<generatorID>6BA0253B-98F0-52DF-CD36-BD1D28ED2E98</generatorID>
+<createdTime>2021-12-01 21:25:22 UTC</createdTime>
+<generatorID>1F44A09D-01E6-DA44-A587-8433B79DC204</generatorID>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -37,9 +37,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="display_name" id="51C93B1D-A871-60C1-38DF-16042EF03B8B">
+<Attribute name="date" id="B39F608F-0027-E0B5-2477-724E5A5EB27C">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:43:17 UTC</createdTime>
+<createdTime>2021-12-01 21:26:55 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -47,9 +47,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="family_name" id="2023F3B6-846D-F46A-CB4D-A8B39C7D6BA0">
+<Attribute name="weight" id="9EE6468B-AA4A-F78A-B1DC-AC8BBA28E9E5">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:44:10 UTC</createdTime>
+<createdTime>2021-12-01 21:26:21 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -57,19 +57,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="given_name" id="18017091-6397-1615-6EC7-572A69D14CEE">
+<Attribute name="water_percentage" id="660CDD8D-9BF8-8B54-9530-F2BB504A3E86">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:44:16 UTC</createdTime>
-<ownerDesignName>workout-buddy</ownerDesignName>
-<engineerTo>
-<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="avatar_url" id="7F31958A-9DB9-1C26-DDBF-D30278B2CBB7">
-<createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:44:23 UTC</createdTime>
+<createdTime>2021-12-01 21:27:11 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -78,28 +68,62 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="9B4ECA4A-1D26-5CB7-895A-44A29A4639D5">
+<Attribute name="body_fat" id="7BC88CB1-5390-49FF-9A39-3520E1CAC95D">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:44:28 UTC</createdTime>
+<createdTime>2021-12-01 21:27:24 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visceral_fat" id="4D15DDF5-804F-EC2D-401A-9C7DC43693BA">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 21:27:30 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="muscle" id="D4155050-93E5-8E19-EC6A-2090341B0609">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 21:27:38 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bone_mass" id="5AF71F3B-88CD-6DF1-259E-6DC8DCC86B41">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 21:28:19 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7DDA5DB5-470D-4BA3-4B65-D7FF218BEAAF" name="facebook_user PK">
+<identifier id="EE468F43-5558-E554-4628-24945E2B79B6" name="body_measurement PK">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 09:11:09 UTC</createdTime>
+<createdTime>2021-12-01 21:26:19 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F274866F-ABD5-D6B8-51FA-2CA03031290D</attributeRef>
+<attributeRef>D6181E6A-E40B-591D-DB25-75A4DC7F435A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

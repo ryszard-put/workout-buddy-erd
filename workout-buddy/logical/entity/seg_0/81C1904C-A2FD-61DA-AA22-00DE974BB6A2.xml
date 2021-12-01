@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B2BE178-0068-82CE-F4BF-A73893EC4615" name="group">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81C1904C-A2FD-61DA-AA22-00DE974BB6A2" name="workout_log">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 11:41:30 UTC</createdTime>
+<createdTime>2021-12-01 21:02:28 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="group_id" id="66CD2F97-D682-3A0A-90B8-754AD69D9B21">
+<Attribute name="log_id" id="61B563EE-B266-6B5D-3EAE-20EEF82DDF65">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 17:47:46 UTC</createdTime>
+<createdTime>2021-12-01 21:02:36 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -25,21 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="blueprint_id" id="2F5F195A-CA8B-EB7A-A08B-4EF5A90CCC33">
+<Attribute name="name" id="26E5F3B4-4B92-9A12-8C31-7815A976C09C">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:58:27 UTC</createdTime>
-<generatorID>D27E40A0-BE30-3666-EF76-FB7C9373E5AA</generatorID>
-<ownerDesignName>workout-buddy</ownerDesignName>
-<engineerTo>
-<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
-</engineerTo>
-<referedAttribute>0DC6BD3B-8B04-77D9-E790-4EA9CE39F314</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="order" id="F7544AEA-6AEA-1008-A4BB-E04237DFE34A">
-<createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 19:59:01 UTC</createdTime>
+<createdTime>2021-12-01 21:15:28 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
@@ -47,29 +35,40 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="6AE670C7-77CC-971D-F537-E0E64AF2F9AB">
+<Attribute name="date" id="9642EC8B-F31B-DA53-541D-9E727229D9E5">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 20:00:48 UTC</createdTime>
+<createdTime>2021-12-01 21:15:36 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="87FE7A67-DED1-EFD3-9CDC-377083F757F7">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 21:18:41 UTC</createdTime>
+<generatorID>F541EBBF-5BB0-C996-CF1A-9111C1029F2F</generatorID>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<referedAttribute>BA8F5270-92E9-002C-4A81-8E37114053E9</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C45F8F4C-803E-4CBC-1484-B6E257DD7530" name="exercise_set PK">
+<identifier id="8CCB84B7-E810-B006-A9AC-4325C9FD5A8E" name="workout_log PK">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-12-01 17:47:54 UTC</createdTime>
+<createdTime>2021-12-01 21:02:44 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>66CD2F97-D682-3A0A-90B8-754AD69D9B21</attributeRef>
+<attributeRef>61B563EE-B266-6B5D-3EAE-20EEF82DDF65</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

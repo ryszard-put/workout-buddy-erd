@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="D27E40A0-BE30-3666-EF76-FB7C9373E5AA">
+<createdBy>Ryszard</createdBy>
+<createdTime>2021-12-01 19:58:27 UTC</createdTime>
+<ownerDesignName>workout-buddy</ownerDesignName>
+<engineerTo>
+<item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
+</engineerTo>
+<sourcePk>4705CBB8-7CA6-865C-BED3-82CD281D51C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A330C003-F62E-8274-157F-14DEA347C537</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B2BE178-0068-82CE-F4BF-A73893EC4615</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
