@@ -85,6 +85,7 @@
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -8,10 +8,10 @@
 </engineerTo>
 <sourcePk>FBE45B1E-0F24-7C75-7938-07FFEA94318C</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>trains</nameOnSource>
-<nameOnTarget> </nameOnTarget>
+<nameOnSource> </nameOnSource>
+<nameOnTarget> trains</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>F912DA15-0E60-4876-90BE-4626D9BE34E2</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

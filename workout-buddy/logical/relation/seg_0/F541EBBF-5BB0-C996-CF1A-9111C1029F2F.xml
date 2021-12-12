@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>6468E508-65C1-9B4F-9F8D-F66DF1E6F6D5</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>creates</nameOnSource>
+<nameOnTarget>is created by</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

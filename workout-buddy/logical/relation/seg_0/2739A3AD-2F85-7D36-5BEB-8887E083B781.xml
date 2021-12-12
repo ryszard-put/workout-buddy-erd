@@ -1,13 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="8E779DF2-5D01-1C90-1BDF-CB9607F1B42A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_24" directorySegmentName="seg_0" id="2739A3AD-2F85-7D36-5BEB-8887E083B781">
 <createdBy>Ryszard</createdBy>
-<createdTime>2021-11-15 09:27:58 UTC</createdTime>
+<createdTime>2021-12-12 19:37:17 UTC</createdTime>
 <ownerDesignName>workout-buddy</ownerDesignName>
 <engineerTo>
 <item key="ADE57BB4-457E-7E32-DAA5-AE0C0AD2DFF0" value="true"/>
 </engineerTo>
 <sourcePk>6468E508-65C1-9B4F-9F8D-F66DF1E6F6D5</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>is written by</nameOnSource>
+<nameOnTarget>writes</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
